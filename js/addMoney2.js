@@ -5,6 +5,10 @@
     const addMoney = getInputFiledById('input-add-money')
     const pinNumber = getInputFiledById('input-pin-number')
 
+    if(isNaN(addMoney)){
+        return;
+    }
+
     if(pinNumber === 1234){
 
     const balance = getTextFiledBYId('account-balance');

@@ -16,7 +16,7 @@ document.getElementById('btn-cash-out').addEventListener('click', function(event
 
         // add to transaction
        const div = document.createElement('div');
-       div.classList.add('bg-red-600');
+       div.classList.add('bg-red-500');
        div.innerHTML =`
        <h3 class = "text-2xl font-bold">Cash Out</h3>
        <p> ${cashOut} Withdrow. new balance ${newBalance}`
